@@ -1,0 +1,110 @@
+body{
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+section{
+    background-color:  #444444;
+    min-width: 80vw;
+}
+#one{
+    display: flex;
+    justify-content: space-between;
+}
+#Main_h1{
+    color: white;
+    background-color: #333333;
+    text-align: center;
+}
+.span_top{
+    color: white;
+}
+#top_left, #down_left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    justify-content: center;
+}
+#left_one_sec{
+    display: flex;
+}
+#right_one_sec{
+    margin-right: 50px;
+}
+.orange-button {
+    background-color: #FFA500;
+    border: none;
+    color: white; 
+    padding: 15px 30px;
+    text-align: center; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 10px 2px;
+    cursor: pointer; 
+    border-radius: 12px; 
+    transition: background-color 0.3s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.orange-button:hover {
+    background-color: #FF8C00; 
+}
+.orange-button:active {
+    background-color: #FF6347; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+#two{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.sec_task{
+    display: flex;
+    justify-content: space-between;
+}
+.left_two_sec{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.spanDownOrange{
+    color: #FFA500; 
+    font-size: xx-large;
+    font-weight: 600;
+}
+.SpanDown{
+    color: white;
+}
+.white-button {
+    background-color: #FFFFFF; 
+    border: 2px solid #444444; 
+    color: #444444; 
+    padding: 15px 30px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 10px 2px; 
+    cursor: pointer; 
+    border-radius: 12px; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.white-button:hover {
+    background-color: #FFA500; 
+    color: #FFFFFF; 
+}
+
+.white-button:active {
+    background-color: #FF8C00; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.completed {
+    text-decoration: line-through; 
+}
