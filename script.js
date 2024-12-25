@@ -38,7 +38,7 @@ function displayTasks() {
                 <span class="SpanDown ${task.completed ? 'completed' : ''}">${task.body}</span>
             </div>
             <div class="right_two_sec">
-                <button id="complete_${index}" class="white-button">Выполненно</button>
+                <button id="complete_${index}" class="white-button">${task.completed ? 'Вернуть в работу' : 'Выполнено'}</button>
                 <button id="delete_${index}" class="white-button">Удалить</button>
             </div>
         `;
